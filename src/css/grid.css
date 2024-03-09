@@ -1,0 +1,26 @@
+.grid-container {
+  height: 300px;
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'aside main .'
+    'footer footer footer';
+}
+
+header {
+  background-color: green;
+  grid-area: header;
+}
+aside {
+  background-color: red;
+  grid-area: aside;
+}
+
+footer {
+  background-color: yellow;
+  grid-area: footer;
+}
+main {
+  background-color: pink;
+  grid-area: main;
+}

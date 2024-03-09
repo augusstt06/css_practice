@@ -1,9 +1,10 @@
-import './App.css';
+import './css/flex.css';
+import './css/grid.css';
 
 function App() {
   const flexItems = ['item1', '2', 'itemss3', '44item4', 'item5dasa'];
   return (
-    <main className='main'>
+    <article className='main'>
       <section className='flex-section'>
         <h1>1. Flex</h1>
         <section className='flexbox'>
@@ -18,7 +19,16 @@ function App() {
           <button className='login-button'>Sign up</button>
         </section>
       </section>
-    </main>
+      <section>
+        <h1>Grid</h1>
+        <section className='grid-container'>
+          <header>Header</header>
+          <aside>Sidebar</aside>
+          <main>Main content</main>
+          <footer>Footer</footer>
+        </section>
+      </section>
+    </article>
   );
 }
 
