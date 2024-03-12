@@ -7,6 +7,16 @@ export default function Position() {
     //   <div className='display-relative'>position: relative</div>
     //   <div className='display-absolute'>position: absolute</div>
     // </section>
-    <section className='sticky'></section>
+    <section className='sticky'>
+      <section className='sticky-slide' id='s1'>
+        First Slide
+      </section>
+      <section className='sticky-slide' id='s2'>
+        Second Slide
+      </section>
+      <section className='sticky-slide' id='s3'>
+        Third Slide
+      </section>
+    </section>
   );
 }

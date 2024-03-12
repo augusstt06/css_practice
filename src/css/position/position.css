@@ -35,3 +35,26 @@ div {
   background: green;
   opacity: 0.8;
 }
+
+.sticky {
+  height: 100vh;
+  width: 100vw;
+  background: purple;
+  overflow-x: hidden;
+}
+
+.sticky-slide {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+#s1 {
+  background: red;
+}
+#s2 {
+  background: yellow;
+}
+#s3 {
+  background: green;
+}
