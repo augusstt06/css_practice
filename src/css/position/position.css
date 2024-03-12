@@ -1,4 +1,4 @@
-section {
+.display {
   position: relative;
   width: 300px;
   height: 400px;
@@ -14,13 +14,13 @@ div {
   box-sizing: border-box;
 }
 
-div:nth-of-type(1) {
+.display-static {
   position: static;
   background: purple;
   opacity: 0.8;
 }
 
-div:nth-of-type(2) {
+.display-relative {
   position: relative;
   top: 28px;
   left: 48px;
@@ -28,7 +28,7 @@ div:nth-of-type(2) {
   opacity: 0.8;
 }
 
-div:nth-of-type(3) {
+.display-absolute {
   position: absolute;
   bottom: 8px;
   right: 16px;

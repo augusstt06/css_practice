@@ -2,10 +2,11 @@ import '../css/position/position.css';
 
 export default function Position() {
   return (
-    <section>
-      <div>position: static</div>
-      <div>position: relative</div>
-      <div>position: absolute</div>
-    </section>
+    // <section className='display'>
+    //   <div className='display-static'>position: static</div>
+    //   <div className='display-relative'>position: relative</div>
+    //   <div className='display-absolute'>position: absolute</div>
+    // </section>
+    <section className='sticky'></section>
   );
 }
